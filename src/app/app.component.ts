@@ -2,7 +2,7 @@ import { NgFor } from '@angular/common';
 import { Component, inject, OnInit } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { NavComponent } from './nav/nav.component';
-import { AccountService } from './_service/account.service';
+import { AccountService } from './_services/account.service';
 import { HomeComponent } from "./home/home.component";
 
 @Component({
