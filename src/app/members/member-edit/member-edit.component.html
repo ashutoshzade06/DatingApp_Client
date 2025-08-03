@@ -69,7 +69,7 @@
                 </form>
             </tab>
             <tab heading="Edit Photos">
-                photo edit goes here
+               <app-photo-editor [member]="member" (memberChange)="onMemberChange($event)"></app-photo-editor>
             </tab>
 
 
